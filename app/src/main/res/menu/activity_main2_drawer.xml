@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_"
+            android:title="@string/scan_and_info"/>
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contacts"
+            android:title="@string/contact"/>
+        <item
+            android:id="@+id/nav_check_new"
+            android:icon="@drawable/ic_check_"
+            android:title="@string/check_new"/>
+    </group>
+
+    <item android:title="@string/other">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/setting"/>
+        </menu>
+    </item>
+
+</menu>

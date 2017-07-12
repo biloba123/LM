@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="?android:attr/selectableItemBackground"
+              android:paddingLeft="@dimen/small_spacing"
+              android:paddingRight="@dimen/small_spacing"
+              android:paddingTop="@dimen/small_spacing">
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/medium_text"
+        android:textColor="@color/textColor"
+        tools:text="第六届大赛高校巡展圆满落幕"/>
+    <!--<TextView-->
+        <!--android:id="@+id/content_tv"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textColor="@color/subTextColor"-->
+        <!--android:textSize="@dimen/sub_medium_text"-->
+        <!--android:maxLines="2"-->
+        <!--android:ellipsize="end"-->
+        <!--android:layout_marginTop="@dimen/sub_small_spacing"-->
+        <!--android:text="4月5日，第六届“中国软件杯”大学生软件设计大赛全国高校巡展暨重点软件企业校园招聘行活动西北工业大学站在西北工业大学友谊路校区成功举办。西北工业大学软件与微电子学院副院长郑江滨、“中国软件杯”大学生软件设计大赛组委会代表韩英，大赛评审委员会专家、北京工商大学计算机与信息工程学院计算机系主任韩忠明，浪潮集团数据服务事业部副总经理毛宪阳、华为技术有限公司高级经理刘敏以及100余位软件与微电子学院师生共同出席了本次活动。"/>-->
+
+    <TextView
+        android:id="@+id/author_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#969696"
+        android:textSize="12sp"
+        tools:text="吕晴阳 • 2017-06-27T21:24:14.68"
+        android:layout_marginTop="@dimen/sub_small_spacing"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="@dimen/setting_spacing"
+        android:background="@color/div"/>
+</LinearLayout>

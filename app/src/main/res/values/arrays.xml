@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="bubble">
+        <item>#41ffffff</item>
+        <item>#18ffffff</item>
+        <item>#1fffffff</item>
+        <item>#25ffffff</item>
+    </string-array>
+
+
+    <string-array name="BubbleAnimations">
+        <item>com.github.glomadrian.grav.generator.animation.SideToSideAnimator</item>
+        <item>com.github.glomadrian.grav.generator.animation.ShakeAnimator</item>
+    </string-array>
+
+    <string-array name="ld_activityScreenTitles">
+        <item>借还扫码</item>
+        <item>通讯录</item>
+        <item>审核新人</item>
+        <item />
+        <item>退出登录</item>
+    </string-array>
+
+    <string-array name="ld_activityScreenTitles_">
+        <item>借还扫码</item>
+        <item>通讯录</item>
+        <item />
+        <item>退出登录</item>
+    </string-array>
+
+    <string-array name="tabs">
+        <item>未审核</item>
+        <item>已审核</item>
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/ic_action_scan</item>
+        <item>@drawable/ic_action_contact</item>
+        <item>@drawable/ic_action_check</item>
+        <item>0</item>
+        <item>@drawable/ic_action_quit</item>
+    </array>
+
+    <array name="ld_activityScreenIcons_">
+        <item>@drawable/ic_action_scan</item>
+        <item>@drawable/ic_action_contact</item>
+        <item>0</item>
+        <item>@drawable/ic_action_quit</item>
+    </array>
+
+    <array name="colors">
+        <item>@color/accent_red</item>
+        <item>@color/accent_pink</item>
+        <item>@color/accent_purple</item>
+        <item>@color/accent_deep_purple</item>
+        <item>@color/accent_indago</item>
+        <item>@color/accent_blue</item>
+        <item>@color/accent_cyan</item>
+        <item>@color/accent_teal</item>
+        <item>@color/accent_green</item>
+        <item>@color/accent_yellow</item>
+        <item>@color/accent_amber</item>
+        <item>@color/accent_orange</item>
+        <item>@color/accent_brown</item>
+        <item>@color/accent_white</item>
+        <item>@color/accent_grey</item>
+        <item>@color/accent_black</item>
+    </array>
+</resources>

@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AddBook" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryDark">#000</item>
+    </style>
+
+    <style name="Scan" parent="AppTheme">
+        <item name="colorPrimary">@color/accent_cyan</item>
+        <item name="colorPrimaryDark">@color/accent_cyan</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="Contact" parent="AppTheme">
+        <item name="colorPrimary">@color/contactColor</item>
+        <item name="colorPrimaryDark">@color/contactColor</item>
+    </style>
+
+    <style name="Check" parent="AppTheme">
+        <item name="colorPrimary">@color/checkColor</item>
+        <item name="colorPrimaryDark">@color/checkColor</item>
+    </style>
+
+    <style name="Setting" parent="AppTheme">
+        <item name="colorPrimary">@color/settingColor</item>
+        <item name="colorPrimaryDark">@color/settingColor</item>
+    </style>
+
+    <style name="Capture" parent="AppTheme">
+        <item name="colorPrimary">@color/accent_black</item>
+        <item name="colorPrimaryDark">@color/accent_black</item>
+    </style>
+
+    <style name="Book" parent="AppTheme">
+        <item name="colorPrimary">@color/accent_green</item>
+        <item name="colorPrimaryDark">@color/accent_green</item>
+    </style>
+
+    <style name="News" parent="AppTheme">
+        <item name="colorPrimary">@color/accent_deep_purple</item>
+        <item name="colorPrimaryDark">@color/accent_deep_purple</item>
+    </style>
+
+    <style name="Translucent" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>

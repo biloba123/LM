@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lvqingyang.librarymanager.ContactActivity">
+    <include layout="@layout/toolbar"/>
+    <me.yokeyword.indexablerv.IndexableLayout
+        android:id="@+id/il"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    app:indexBar_layout_width="24dp"
+    app:indexBar_background="#08000000"
+    app:indexBar_textColor="@color/subTextColor"
+    app:indexBar_selectedTextColor="@color/colorAccent"
+    app:indexBar_textSize="@dimen/sub_medium_text"
+    app:indexBar_textSpace="6dp" />
+</LinearLayout>
